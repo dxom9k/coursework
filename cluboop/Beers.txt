@@ -1,0 +1,4 @@
+401 Пиво_StellaArtois       500ml    55
+402 Пиво_Lvivske            500ml    45
+403 Пиво_Heineken           500ml    50
+404 Пиво_Bud                500ml    60

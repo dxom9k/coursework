@@ -1,0 +1,4 @@
+201 Віскі_JackDaniel's      50ml     150
+202 Коньяк_Hennessy         50ml     180
+203 Горілка_Nemiroff        50ml     60
+204 Ром_Bacardi             50ml     120
