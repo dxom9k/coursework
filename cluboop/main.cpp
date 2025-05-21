@@ -1,4 +1,4 @@
-#include "Admin.h"
+ï»¿#include "Admin.h"
 #include "Dish.h"
 #include "Visitor.h"
 #include <Windows.h>
@@ -19,13 +19,13 @@ void clearAndPause() {
 void showWelcomeMenu() {
     system("cls");
     cout << "+------------------------------------------+\n";
-    cout << "|             Êëóá Ðóòåí³ÿ                 |\n";
+    cout << "|             ÐšÐ»ÑƒÐ± Ð ÑƒÑ‚ÐµÐ½Ñ–Ñ                 |\n";
     cout << "+------------------------------------------+\n";
-    cout << "|  [1] Óâ³éòè ÿê àäì³í³ñòðàòîð             |\n";
-    cout << "|  [2] Óâ³éòè ÿê ã³ñòü                     |\n";
-    cout << "|  [0] Âèéòè ç ïðîãðàìè                    |\n";
+    cout << "|  [1] Ð£Ð²Ñ–Ð¹Ñ‚Ð¸ ÑÐº Ð°Ð´Ð¼Ñ–Ð½Ñ–ÑÑ‚Ñ€Ð°Ñ‚Ð¾Ñ€             |\n";
+    cout << "|  [2] Ð£Ð²Ñ–Ð¹Ñ‚Ð¸ ÑÐº Ð³Ñ–ÑÑ‚ÑŒ                     |\n";
+    cout << "|  [0] Ð’Ð¸Ð¹Ñ‚Ð¸ Ð· Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ð¸                    |\n";
     cout << "+------------------------------------------+\n";
-    cout << "Âàø âèá³ð: ";
+    cout << "Ð’Ð°Ñˆ Ð²Ð¸Ð±Ñ–Ñ€: ";
 }
 
 int main() {
@@ -47,28 +47,28 @@ main_menu:
     if (role == 1) {
         system("cls");
         if (!admin.Entrence()) {
-            cout << "\n!!!ÏÀÐÎËÜ ÍÅÂ²ÐÍÈÉ!!!\n"; clearAndPause(); goto main_menu;
+            cout << "\n!!!ÐŸÐÐ ÐžÐ›Ð¬ ÐÐ•Ð’Ð†Ð ÐÐ˜Ð™!!!\n"; clearAndPause(); goto main_menu;
         }
     admin_menu:
         system("cls");
-        cout << "1 - Çì³íèòè ïàðîëü WiFi\n2 - Âèêëèêàòè îõîðîíó\n3 - Çì³íèòè ãîäèíè ðîáîòè\n4 - Çàìîâèòè ïðîäóêòè\n5 - Âíåñòè çì³íè â ìåíþ\n6 - Çì³íèòè ö³íó çà âõ³ä\n7 - Ïîêàçàòè WiFi ïàðîëü\n8 - Ïðî÷èòàòè â³äãóêè\n0 - Íàçàä\nÂàø âèá³ð: ";
+        cout << "1 - Ð—Ð¼Ñ–Ð½Ð¸Ñ‚Ð¸ Ð¿Ð°Ñ€Ð¾Ð»ÑŒ WiFi\n2 - Ð’Ð¸ÐºÐ»Ð¸ÐºÐ°Ñ‚Ð¸ Ð¾Ñ…Ð¾Ñ€Ð¾Ð½Ñƒ\n3 - Ð—Ð¼Ñ–Ð½Ð¸Ñ‚Ð¸ Ð³Ð¾Ð´Ð¸Ð½Ð¸ Ñ€Ð¾Ð±Ð¾Ñ‚Ð¸\n4 - Ð—Ð°Ð¼Ð¾Ð²Ð¸Ñ‚Ð¸ Ð¿Ñ€Ð¾Ð´ÑƒÐºÑ‚Ð¸\n5 - Ð’Ð½ÐµÑÑ‚Ð¸ Ð·Ð¼Ñ–Ð½Ð¸ Ð² Ð¼ÐµÐ½ÑŽ\n6 - Ð—Ð¼Ñ–Ð½Ð¸Ñ‚Ð¸ Ñ†Ñ–Ð½Ñƒ Ð·Ð° Ð²Ñ…Ñ–Ð´\n7 - ÐŸÐ¾ÐºÐ°Ð·Ð°Ñ‚Ð¸ WiFi Ð¿Ð°Ñ€Ð¾Ð»ÑŒ\n8 - ÐŸÑ€Ð¾Ñ‡Ð¸Ñ‚Ð°Ñ‚Ð¸ Ð²Ñ–Ð´Ð³ÑƒÐºÐ¸\n0 - ÐÐ°Ð·Ð°Ð´\nÐ’Ð°Ñˆ Ð²Ð¸Ð±Ñ–Ñ€: ";
         int choice; cin >> choice;
         switch (choice) {
         case 1: admin.ChangeWiFiPassword(); break;
-        case 2: cout << "\nÎõîðîíó âèêëèêàíî!\n"; break;
+        case 2: cout << "\nÐžÑ…Ð¾Ñ€Ð¾Ð½Ñƒ Ð²Ð¸ÐºÐ»Ð¸ÐºÐ°Ð½Ð¾!\n"; break;
         case 3: admin.ChangeWorkHours(); break;
         case 4: admin.OrderProducts(); break;
         case 5: {
             int type;
-            cout << "1 - Ñòðàâè, 2 - Íàïî¿: ";
+            cout << "1 - Ð¡Ñ‚Ñ€Ð°Ð²Ð¸, 2 - ÐÐ°Ð¿Ð¾Ñ—: ";
             cin >> type;
             if (type == 1) {
-                cout << "1 - Àâòîðñüê³\n2 - Õîëîäí³\n3 - Äåñåðòè\n4 - Êàëüÿíè\nÂàø âèá³ð: ";
+                cout << "1 - ÐÐ²Ñ‚Ð¾Ñ€ÑÑŒÐºÑ–\n2 - Ð¥Ð¾Ð»Ð¾Ð´Ð½Ñ–\n3 - Ð”ÐµÑÐµÑ€Ñ‚Ð¸\n4 - ÐšÐ°Ð»ÑŒÑÐ½Ð¸\nÐ’Ð°Ñˆ Ð²Ð¸Ð±Ñ–Ñ€: ";
                 cin >> type;
                 menu.AddDish(type);
             }
             else {
-                cout << "1 - Ì³öí³\n2 - Ñåðåäí³\n3 - Ïèâî\n4 - Êîêòåë³\nÂàø âèá³ð: ";
+                cout << "1 - ÐœÑ–Ñ†Ð½Ñ–\n2 - Ð¡ÐµÑ€ÐµÐ´Ð½Ñ–\n3 - ÐŸÐ¸Ð²Ð¾\n4 - ÐšÐ¾ÐºÑ‚ÐµÐ»Ñ–\nÐ’Ð°Ñˆ Ð²Ð¸Ð±Ñ–Ñ€: ";
                 cin >> type;
                 menu.AddDirnk(type);
             }
@@ -86,54 +86,54 @@ main_menu:
     else if (role == 2) {
     visitor_menu:
         system("cls");
-        cout << "1 - Çàìîâèòè ï³ñíþ\n2 - Çàìîâèòè ç ìåíþ\n3 - Áðîíþâàííÿ ñòîëèêà\n4 - Ïåðåãëÿíóòè ãîäèíè ðîáîòè\n5 - Ïîêàçàòè WiFi ïàðîëü\n6 - Â³äãóêè\n7 - Ïåðåãëÿíóòè ðàõóíîê\n8 - Îïëàòèòè ðàõóíîê\n0 - Íàçàä\nÂàø âèá³ð: ";
+        cout << "1 - Ð—Ð°Ð¼Ð¾Ð²Ð¸Ñ‚Ð¸ Ð¿Ñ–ÑÐ½ÑŽ\n2 - Ð—Ð°Ð¼Ð¾Ð²Ð¸Ñ‚Ð¸ Ð· Ð¼ÐµÐ½ÑŽ\n3 - Ð‘Ñ€Ð¾Ð½ÑŽÐ²Ð°Ð½Ð½Ñ ÑÑ‚Ð¾Ð»Ð¸ÐºÐ°\n4 - ÐŸÐµÑ€ÐµÐ³Ð»ÑÐ½ÑƒÑ‚Ð¸ Ð³Ð¾Ð´Ð¸Ð½Ð¸ Ñ€Ð¾Ð±Ð¾Ñ‚Ð¸\n5 - ÐŸÐ¾ÐºÐ°Ð·Ð°Ñ‚Ð¸ WiFi Ð¿Ð°Ñ€Ð¾Ð»ÑŒ\n6 - Ð’Ñ–Ð´Ð³ÑƒÐºÐ¸\n7 - ÐŸÐµÑ€ÐµÐ³Ð»ÑÐ½ÑƒÑ‚Ð¸ Ñ€Ð°Ñ…ÑƒÐ½Ð¾Ðº\n8 - ÐžÐ¿Ð»Ð°Ñ‚Ð¸Ñ‚Ð¸ Ñ€Ð°Ñ…ÑƒÐ½Ð¾Ðº\n0 - ÐÐ°Ð·Ð°Ð´\nÐ’Ð°Ñˆ Ð²Ð¸Ð±Ñ–Ñ€: ";
         int choice; cin >> choice;
         int id, count, type;
         switch (choice) {
         case 1: visitor.OrderSong(); break;
         case 2:
-            cout << "1 - Ñòðàâè\n2 - Íàïî¿\nÂàø âèá³ð: ";
+            cout << "1 - Ð¡Ñ‚Ñ€Ð°Ð²Ð¸\n2 - ÐÐ°Ð¿Ð¾Ñ—\nÐ’Ð°Ñˆ Ð²Ð¸Ð±Ñ–Ñ€: ";
             cin >> type;
             if (type == 1) {
-                cout << "1 - Àâòîðñüê³\n2 - Õîëîäí³\n3 - Äåñåðòè\n4 - Êàëüÿíè\nÂàø âèá³ð: ";
+                cout << "1 - ÐÐ²Ñ‚Ð¾Ñ€ÑÑŒÐºÑ–\n2 - Ð¥Ð¾Ð»Ð¾Ð´Ð½Ñ–\n3 - Ð”ÐµÑÐµÑ€Ñ‚Ð¸\n4 - ÐšÐ°Ð»ÑŒÑÐ½Ð¸\nÐ’Ð°Ñˆ Ð²Ð¸Ð±Ñ–Ñ€: ";
                 cin >> type;
                 menu.ShowMenu(type);
                 cout << "ID: "; cin >> id;
-                cout << "Ê³ëüê³ñòü: "; cin >> count;
+                cout << "ÐšÑ–Ð»ÑŒÐºÑ–ÑÑ‚ÑŒ: "; cin >> count;
                 total += menu.OrderDishes(type, id, count);
             }
             else {
-                cout << "1 - Ì³öí³\n2 - Ñåðåäí³\n3 - Ïèâî\n4 - Êîêòåë³\nÂàø âèá³ð: ";
+                cout << "1 - ÐœÑ–Ñ†Ð½Ñ–\n2 - Ð¡ÐµÑ€ÐµÐ´Ð½Ñ–\n3 - ÐŸÐ¸Ð²Ð¾\n4 - ÐšÐ¾ÐºÑ‚ÐµÐ»Ñ–\nÐ’Ð°Ñˆ Ð²Ð¸Ð±Ñ–Ñ€: ";
                 cin >> type;
                 menu.ShowAlcohol(type);
                 cout << "ID: "; cin >> id;
-                cout << "Ê³ëüê³ñòü: "; cin >> count;
+                cout << "ÐšÑ–Ð»ÑŒÐºÑ–ÑÑ‚ÑŒ: "; cin >> count;
                 total += menu.OrderAlcohol(type, id, count);
             }
-            cout << "Ðàçîì: " << total << " ãðí.\n";
+            cout << "Ð Ð°Ð·Ð¾Ð¼: " << total << " Ð³Ñ€Ð½.\n";
             break;
         case 3: visitor.BookTable(); break;
-        case 4: cout << "Ãðàô³ê: " << visitor.GetWorkHours() << endl; break;
+        case 4: cout << "Ð“Ñ€Ð°Ñ„Ñ–Ðº: " << visitor.GetWorkHours() << endl; break;
         case 5: cout << "WiFi: " << visitor.GetWiFiPassword() << endl; break;
         case 6:
-            cout << "1 - ×èòàòè, 2 - Çàëèøèòè: ";
+            cout << "1 - Ð§Ð¸Ñ‚Ð°Ñ‚Ð¸, 2 - Ð—Ð°Ð»Ð¸ÑˆÐ¸Ñ‚Ð¸: ";
             cin >> type;
             (type == 1) ? visitor.ReadFeedback() : visitor.LeavFeedBack();
             break;
-        case 7: menu.ShowBill(); cout << "Ñóìà: " << total << " ãðí.\n"; break;
+        case 7: menu.ShowBill(); cout << "Ð¡ÑƒÐ¼Ð°: " << total << " Ð³Ñ€Ð½.\n"; break;
         case 8:
-            cout << "1 - Ãîò³âêà, 2 - Êàðòà: ";
+            cout << "1 - Ð“Ð¾Ñ‚Ñ–Ð²ÐºÐ°, 2 - ÐšÐ°Ñ€Ñ‚Ð°: ";
             cin >> type;
             if (type == 1 && visitor.GetBalance() >= total) {
                 visitor.SetBalance(visitor.GetBalance() - total);
-                cout << "Îïëà÷åíî ãîò³âêîþ\n"; total = 0;
+                cout << "ÐžÐ¿Ð»Ð°Ñ‡ÐµÐ½Ð¾ Ð³Ð¾Ñ‚Ñ–Ð²ÐºÐ¾ÑŽ\n"; total = 0;
             }
             else if (type == 2 && visitor.GetCardBalance() >= total) {
                 visitor.SetCardBalance(visitor.GetCardBalance() - total);
-                cout << "Îïëà÷åíî êàðòêîþ\n"; total = 0;
+                cout << "ÐžÐ¿Ð»Ð°Ñ‡ÐµÐ½Ð¾ ÐºÐ°Ñ€Ñ‚ÐºÐ¾ÑŽ\n"; total = 0;
             }
             else {
-                cout << "Íåäîñòàòíüî êîøò³â\n";
+                cout << "ÐÐµÐ´Ð¾ÑÑ‚Ð°Ñ‚Ð½ÑŒÐ¾ ÐºÐ¾ÑˆÑ‚Ñ–Ð²\n";
             }
             break;
         case 0: goto main_menu;

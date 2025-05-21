@@ -1,4 +1,4 @@
-#include "Human.h"
+ï»¿#include "Human.h"
 #include <iostream>
 #include <iomanip>
 #include <fstream>
@@ -11,12 +11,12 @@ void Human::OrderDish() {
 void Human::ReadFeedback() {
     Feedback.open("Feedback.txt", ios::in);
     if (!Feedback.is_open()) {
-        cout << "Ïîìèëêà ó â³äêðèò³ ôàéëó!!!" << endl;
+        cout << "ÐŸÐ¾Ð¼Ð¸Ð»ÐºÐ° Ñƒ Ð²Ñ–Ð´ÐºÑ€Ð¸Ñ‚Ñ– Ñ„Ð°Ð¹Ð»Ñƒ!!!" << endl;
     }
     else {
-        cout << setw(20) << left << "²ì'ÿ â³äâ³äóâà÷à" << " | "
-            << setw(15) << left << "Ê-ñòü ç³ðî÷îê" << " | "
-            << "Êîðîòêèé â³äãóê" << endl;
+        cout << setw(20) << left << "Ð†Ð¼'Ñ Ð²Ñ–Ð´Ð²Ñ–Ð´ÑƒÐ²Ð°Ñ‡Ð°" << " | "
+            << setw(15) << left << "Ðš-ÑÑ‚ÑŒ Ð·Ñ–Ñ€Ð¾Ñ‡Ð¾Ðº" << " | "
+            << "ÐšÐ¾Ñ€Ð¾Ñ‚ÐºÐ¸Ð¹ Ð²Ñ–Ð´Ð³ÑƒÐº" << endl;
         while (getline(Feedback, Feedbacks)) {
             cout << Feedbacks << endl;
         }

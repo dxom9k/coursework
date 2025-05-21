@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 #include "Human.h"
 #include <vector>
 #include <fstream>

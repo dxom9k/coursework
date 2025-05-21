@@ -1,4 +1,4 @@
-#include "Drinks.h"
+ï»¿#include "Drinks.h"
 #include <iostream>
 #include <iomanip>
 #include <windows.h>
@@ -9,11 +9,11 @@ void Drinks::AddDirnk(int select) {
     getline(ids, s_id);
     id = atoll(s_id.c_str());
 
-    cout << "Ââåä³òü íàçâó íàïîþ: ";
+    cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ð½Ð°Ð·Ð²Ñƒ Ð½Ð°Ð¿Ð¾ÑŽ: ";
     cin >> name;
-    cout << "Ââåä³òü îá'ºì íàïîþ (ìë): ";
+    cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ð¾Ð±'Ñ”Ð¼ Ð½Ð°Ð¿Ð¾ÑŽ (Ð¼Ð»): ";
     cin >> capacity;
-    cout << "Ââåä³òü ö³íó íàïîþ: ";
+    cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ñ†Ñ–Ð½Ñƒ Ð½Ð°Ð¿Ð¾ÑŽ: ";
     cin >> price;
 
     switch (select) {
@@ -21,7 +21,7 @@ void Drinks::AddDirnk(int select) {
         system("cls");
         hard_drinks.open("Hard_Drinks.txt", ofstream::app);
         if (!hard_drinks.is_open()) {
-            cout << "Ïîìèëêà ó â³äêðèòò³ ôàéëó" << endl;
+            cout << "ÐŸÐ¾Ð¼Ð¸Ð»ÐºÐ° Ñƒ Ð²Ñ–Ð´ÐºÑ€Ð¸Ñ‚Ñ‚Ñ– Ñ„Ð°Ð¹Ð»Ñƒ" << endl;
         }
         else {
             hard_drinks << setw(5) << left << id << " "
@@ -36,7 +36,7 @@ void Drinks::AddDirnk(int select) {
         system("cls");
         soft_drinks.open("Soft_Drinks.txt", ofstream::app);
         if (!soft_drinks.is_open()) {
-            cout << "Ïîìèëêà ó â³äêðèòò³ ôàéëó" << endl;
+            cout << "ÐŸÐ¾Ð¼Ð¸Ð»ÐºÐ° Ñƒ Ð²Ñ–Ð´ÐºÑ€Ð¸Ñ‚Ñ‚Ñ– Ñ„Ð°Ð¹Ð»Ñƒ" << endl;
         }
         else {
             soft_drinks << setw(5) << left << id << " "
@@ -51,7 +51,7 @@ void Drinks::AddDirnk(int select) {
         system("cls");
         beers.open("Beers.txt", ofstream::app);
         if (!beers.is_open()) {
-            cout << "Ïîìèëêà ó â³äêðèòò³ ôàéëó" << endl;
+            cout << "ÐŸÐ¾Ð¼Ð¸Ð»ÐºÐ° Ñƒ Ð²Ñ–Ð´ÐºÑ€Ð¸Ñ‚Ñ‚Ñ– Ñ„Ð°Ð¹Ð»Ñƒ" << endl;
         }
         else {
             beers << setw(5) << left << id << " "
@@ -66,7 +66,7 @@ void Drinks::AddDirnk(int select) {
         system("cls");
         coctails.open("Coctails.txt", ofstream::app);
         if (!coctails.is_open()) {
-            cout << "Ïîìèëêà ó â³äêðèòò³ ôàéëó" << endl;
+            cout << "ÐŸÐ¾Ð¼Ð¸Ð»ÐºÐ° Ñƒ Ð²Ñ–Ð´ÐºÑ€Ð¸Ñ‚Ñ‚Ñ– Ñ„Ð°Ð¹Ð»Ñƒ" << endl;
         }
         else {
             coctails << setw(5) << left << id << " "
@@ -78,7 +78,7 @@ void Drinks::AddDirnk(int select) {
         break;
 
     default:
-        cout << "Íåâ³ðíèé âèá³ð êàòåãîð³¿ íàïî¿â!" << endl;
+        cout << "ÐÐµÐ²Ñ–Ñ€Ð½Ð¸Ð¹ Ð²Ð¸Ð±Ñ–Ñ€ ÐºÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ñ–Ñ— Ð½Ð°Ð¿Ð¾Ñ—Ð²!" << endl;
         break;
     }
 
@@ -91,7 +91,7 @@ void Drinks::AddDirnk(int select) {
 
 void Drinks::GiveDrinkh() {
     system("cls");
-    cout << "\n\n\n\t\t\tÂàø íàï³é ïîäàíî" << endl;
+    cout << "\n\n\n\t\t\tÐ’Ð°Ñˆ Ð½Ð°Ð¿Ñ–Ð¹ Ð¿Ð¾Ð´Ð°Ð½Ð¾" << endl;
     Sleep(3000);
 }
 

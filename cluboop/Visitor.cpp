@@ -1,4 +1,4 @@
-#include "Visitor.h"
+ï»¿#include "Visitor.h"
 #include <iostream>
 #include <conio.h>     // _getch()
 #include <windows.h>   // Sleep()
@@ -13,7 +13,7 @@ Visitor::Visitor(int age, double balance, double card_balance) {
 
 void Visitor::OrderSong() {
     if (balance >= 200) {
-        cout << "Ââåä³òü íàçâó ï³ñí³: ";
+        cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ð½Ð°Ð·Ð²Ñƒ Ð¿Ñ–ÑÐ½Ñ–: ";
         song.clear();
         do {
             a = _getch();
@@ -25,16 +25,16 @@ void Visitor::OrderSong() {
 
         system("cls");
         cout << endl << endl << endl;
-        cout << "\t\t\t*òèö - òèö - òèö*" << endl;
-        cout << "\t\t\tÇàðàç ãðàº: ";
+        cout << "\t\t\t*Ñ‚Ð¸Ñ† - Ñ‚Ð¸Ñ† - Ñ‚Ð¸Ñ†*" << endl;
+        cout << "\t\t\tÐ—Ð°Ñ€Ð°Ð· Ð³Ñ€Ð°Ñ”: ";
         for (char ch : song) cout << ch;
         cout << endl;
-        cout << "\t\t\t*òèö - òèö - òèö*" << endl;
+        cout << "\t\t\t*Ñ‚Ð¸Ñ† - Ñ‚Ð¸Ñ† - Ñ‚Ð¸Ñ†*" << endl;
         Sleep(5000);
         balance -= 200;
     }
     else {
-        cout << "\n\n\n\t\t\t!!!Ó âàñ íåäîñòàòíüî êîøò³â!!!";
+        cout << "\n\n\n\t\t\t!!!Ð£ Ð²Ð°Ñ Ð½ÐµÐ´Ð¾ÑÑ‚Ð°Ñ‚Ð½ÑŒÐ¾ ÐºÐ¾ÑˆÑ‚Ñ–Ð²!!!";
     }
 }
 
@@ -49,14 +49,14 @@ string Visitor::GetWorkHours() {
 
 void Visitor::BookTable() {
     system("cls");
-    cout << "Ê³ëüê³ñòü ñòîëèê³â: 15" << endl << endl << endl;
-    cout << "Çàáðîíüîâàí³ ñòîëèêè: " << endl;
-    for (int num : tables) cout << "Còîëèê ¹" << num << endl;
+    cout << "ÐšÑ–Ð»ÑŒÐºÑ–ÑÑ‚ÑŒ ÑÑ‚Ð¾Ð»Ð¸ÐºÑ–Ð²: 15" << endl << endl << endl;
+    cout << "Ð—Ð°Ð±Ñ€Ð¾Ð½ÑŒÐ¾Ð²Ð°Ð½Ñ– ÑÑ‚Ð¾Ð»Ð¸ÐºÐ¸: " << endl;
+    for (int num : tables) cout << "CÑ‚Ð¾Ð»Ð¸Ðº â„–" << num << endl;
 
     cout << endl << endl << endl;
 
     while (true) {
-        cout << "Ââåä³òü íîìåð ñòîëèêà, ÿêèé âè á õîò³ëè çàáðîíþâàòè: ";
+        cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ð½Ð¾Ð¼ÐµÑ€ ÑÑ‚Ð¾Ð»Ð¸ÐºÐ°, ÑÐºÐ¸Ð¹ Ð²Ð¸ Ð± Ñ…Ð¾Ñ‚Ñ–Ð»Ð¸ Ð·Ð°Ð±Ñ€Ð¾Ð½ÑŽÐ²Ð°Ñ‚Ð¸: ";
         cin >> a;
 
         bool isTaken = false;
@@ -68,14 +68,14 @@ void Visitor::BookTable() {
         }
 
         if (isTaken) {
-            cout << "\n\n\n\t\t\tÑòîëèê âæå çàáðîíüîâàíèé" << endl << endl << endl;
+            cout << "\n\n\n\t\t\tÐ¡Ñ‚Ð¾Ð»Ð¸Ðº Ð²Ð¶Ðµ Ð·Ð°Ð±Ñ€Ð¾Ð½ÑŒÐ¾Ð²Ð°Ð½Ð¸Ð¹" << endl << endl << endl;
             Sleep(2000);
             system("cls");
         }
         else {
             tables.push_back(a);
             system("cls");
-            cout << "\n\n\n\t\t\t Âè çàáðîíþâàëè ñòîëèê ¹" << a << endl;
+            cout << "\n\n\n\t\t\t Ð’Ð¸ Ð·Ð°Ð±Ñ€Ð¾Ð½ÑŽÐ²Ð°Ð»Ð¸ ÑÑ‚Ð¾Ð»Ð¸Ðº â„–" << a << endl;
             break;
         }
     }
@@ -84,20 +84,20 @@ void Visitor::BookTable() {
 void Visitor::LeavFeedBack() {
     o_LeaveFeedback.open("Feedback.txt", ios::app);
     if (!o_LeaveFeedback.is_open()) {
-        cout << "Ïîìèëêà ó â³äêðèò³ ôàéëó" << endl;
+        cout << "ÐŸÐ¾Ð¼Ð¸Ð»ÐºÐ° Ñƒ Ð²Ñ–Ð´ÐºÑ€Ð¸Ñ‚Ñ– Ñ„Ð°Ð¹Ð»Ñƒ" << endl;
         return;
     }
 
     system("cls");
-    cout << "Ââåä³òü ñâîº ³ì'ÿ: ";
+    cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ ÑÐ²Ð¾Ñ” Ñ–Ð¼'Ñ: ";
     cin >> name;
-    cout << "Ââåä³òü ê³ëüê³ñòü ç³ðî÷îê 1 - 5: ";
+    cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ ÐºÑ–Ð»ÑŒÐºÑ–ÑÑ‚ÑŒ Ð·Ñ–Ñ€Ð¾Ñ‡Ð¾Ðº 1 - 5: ";
     cin >> stars;
 
     if (stars > 5) stars = 5;
     if (stars < 0) stars = 0;
 
-    cout << "Îïèø³òü êëóá îäíèì ñëîâîì: ";
+    cout << "ÐžÐ¿Ð¸ÑˆÑ–Ñ‚ÑŒ ÐºÐ»ÑƒÐ± Ð¾Ð´Ð½Ð¸Ð¼ ÑÐ»Ð¾Ð²Ð¾Ð¼: ";
     cin >> coment;
 
     o_LeaveFeedback << setw(15) << left << name << " | ";

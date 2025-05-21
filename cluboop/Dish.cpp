@@ -1,4 +1,4 @@
-#include "Dish.h"
+ï»¿#include "Dish.h"
 #include <iostream>
 #include <iomanip>
 #include <cstdlib>
@@ -15,14 +15,14 @@ void Dish::AddDish(int select) {
     if (select == 1) {
         author_dish.open("Author_dish.txt", ofstream::app);
         if (!author_dish.is_open()) {
-            cout << "Ïîìèëêà ó â³äêðèò³ ôàéëó" << endl;
+            cout << "ÐŸÐ¾Ð¼Ð¸Ð»ÐºÐ° Ñƒ Ð²Ñ–Ð´ÐºÑ€Ð¸Ñ‚Ñ– Ñ„Ð°Ð¹Ð»Ñƒ" << endl;
         }
         else {
-            cout << "Ââåä³òü íàçâó ñòðàâè: ";
+            cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ð½Ð°Ð·Ð²Ñƒ ÑÑ‚Ñ€Ð°Ð²Ð¸: ";
             cin >> name;
-            cout << "Ââåä³òü âàãó ñòðàâè: ";
+            cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ð²Ð°Ð³Ñƒ ÑÑ‚Ñ€Ð°Ð²Ð¸: ";
             cin >> weight;
-            cout << "Ââåä³òü ö³íó ñòðàâè: ";
+            cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ñ†Ñ–Ð½Ñƒ ÑÑ‚Ñ€Ð°Ð²Ð¸: ";
             cin >> price;
 
             author_dish << setw(5) << left << id << " "
@@ -37,14 +37,14 @@ void Dish::AddDish(int select) {
     if (select == 2) {
         cold_dish.open("Cold_Dish.txt", ofstream::app);
         if (!cold_dish.is_open()) {
-            cout << "Ïîìèëêà ó â³äêðèò³ ôàéëó" << endl;
+            cout << "ÐŸÐ¾Ð¼Ð¸Ð»ÐºÐ° Ñƒ Ð²Ñ–Ð´ÐºÑ€Ð¸Ñ‚Ñ– Ñ„Ð°Ð¹Ð»Ñƒ" << endl;
         }
         else {
-            cout << "Ââåä³òü íàçâó ñòðàâè: ";
+            cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ð½Ð°Ð·Ð²Ñƒ ÑÑ‚Ñ€Ð°Ð²Ð¸: ";
             cin >> name;
-            cout << "Ââåä³òü âàãó ñòðàâè: ";
+            cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ð²Ð°Ð³Ñƒ ÑÑ‚Ñ€Ð°Ð²Ð¸: ";
             cin >> weight;
-            cout << "Ââåä³òü ö³íó ñòðàâè: ";
+            cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ñ†Ñ–Ð½Ñƒ ÑÑ‚Ñ€Ð°Ð²Ð¸: ";
             cin >> price;
 
             cold_dish << setw(5) << left << id << " "
@@ -59,14 +59,14 @@ void Dish::AddDish(int select) {
     if (select == 3) {
         deserts.open("Deserts.txt", ofstream::app);
         if (!deserts.is_open()) {
-            cout << "Ïîìèëêà ó â³äêðèò³ ôàéëó" << endl;
+            cout << "ÐŸÐ¾Ð¼Ð¸Ð»ÐºÐ° Ñƒ Ð²Ñ–Ð´ÐºÑ€Ð¸Ñ‚Ñ– Ñ„Ð°Ð¹Ð»Ñƒ" << endl;
         }
         else {
-            cout << "Ââåä³òü íàçâó äåñåðòó: ";
+            cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ð½Ð°Ð·Ð²Ñƒ Ð´ÐµÑÐµÑ€Ñ‚Ñƒ: ";
             cin >> name;
-            cout << "Ââåä³òü âàãó äåñåðòó: ";
+            cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ð²Ð°Ð³Ñƒ Ð´ÐµÑÐµÑ€Ñ‚Ñƒ: ";
             cin >> weight;
-            cout << "Ââåä³òü ö³íó äåñåðòó: ";
+            cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ñ†Ñ–Ð½Ñƒ Ð´ÐµÑÐµÑ€Ñ‚Ñƒ: ";
             cin >> price;
 
             deserts << setw(5) << left << id << " "
@@ -81,12 +81,12 @@ void Dish::AddDish(int select) {
     if (select == 4) {
         hookah.open("Hookah.txt", ofstream::app);
         if (!hookah.is_open()) {
-            cout << "Ïîìèëêà ó â³äêðèò³ ôàéëó" << endl;
+            cout << "ÐŸÐ¾Ð¼Ð¸Ð»ÐºÐ° Ñƒ Ð²Ñ–Ð´ÐºÑ€Ð¸Ñ‚Ñ– Ñ„Ð°Ð¹Ð»Ñƒ" << endl;
         }
         else {
-            cout << "Ââåä³òü íàçâó êàëüÿíó: ";
+            cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ð½Ð°Ð·Ð²Ñƒ ÐºÐ°Ð»ÑŒÑÐ½Ñƒ: ";
             cin >> name;
-            cout << "Ââåä³òü ö³íó êàëüÿíó: ";
+            cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ñ†Ñ–Ð½Ñƒ ÐºÐ°Ð»ÑŒÑÐ½Ñƒ: ";
             cin >> price;
 
             hookah << setw(5) << left << id << " "
@@ -106,7 +106,7 @@ void Dish::AddDish(int select) {
 
 void Dish::GiveDish() {
     system("cls");
-    cout << "\n\n\n\t\t\tÂàøå çàìîâëåííÿ ïîäàíî" << endl;
+    cout << "\n\n\n\t\t\tÐ’Ð°ÑˆÐµ Ð·Ð°Ð¼Ð¾Ð²Ð»ÐµÐ½Ð½Ñ Ð¿Ð¾Ð´Ð°Ð½Ð¾" << endl;
     Sleep(3000);
 }
 

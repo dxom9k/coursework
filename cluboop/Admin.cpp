@@ -1,27 +1,27 @@
-#include "Admin.h"
+п»ї#include "Admin.h"
 #include <iostream>
-#include <conio.h>  // для _getch()
-#include <windows.h>  // для Sleep()
+#include <conio.h>  // РґР»СЏ _getch()
+#include <windows.h>  // РґР»СЏ Sleep()
 using namespace std;
 
 bool Admin::Entrence() {
-    cout << "Введіть пароль: ";
+    cout << "Р’РІРµРґС–С‚СЊ РїР°СЂРѕР»СЊ: ";
     cin >> CheckPassword;
     return CheckPassword == password;
 }
 
 void Admin::ChangeWiFiPassword() {
     SetWiFiPASS();
-    cout << "Введіть старий пароль: ";
+    cout << "Р’РІРµРґС–С‚СЊ СЃС‚Р°СЂРёР№ РїР°СЂРѕР»СЊ: ";
     cin >> CheckPassword;
 
     ofstream WiFi("WiFiPassword.txt");
 
     if (CheckPassword == WiFiPassword) {
-        cout << "Введіть новий пароль: ";
+        cout << "Р’РІРµРґС–С‚СЊ РЅРѕРІРёР№ РїР°СЂРѕР»СЊ: ";
         cin >> NewWiFiPassword;
         system("cls");
-        cout << "Повторіть пароль: ";
+        cout << "РџРѕРІС‚РѕСЂС–С‚СЊ РїР°СЂРѕР»СЊ: ";
         cin >> NewWiFiPassword1;
 
         if (NewWiFiPassword == NewWiFiPassword1) {
@@ -29,11 +29,11 @@ void Admin::ChangeWiFiPassword() {
             WiFi << NewWiFiPassword1;
         }
         else {
-            cout << "Ви ввели не однакові паролі!!!" << endl;
+            cout << "Р’Рё РІРІРµР»Рё РЅРµ РѕРґРЅР°РєРѕРІС– РїР°СЂРѕР»С–!!!" << endl;
         }
     }
     else {
-        cout << "!!!Ви ввели неправильний пароль!!!" << endl;
+        cout << "!!!Р’Рё РІРІРµР»Рё РЅРµРїСЂР°РІРёР»СЊРЅРёР№ РїР°СЂРѕР»СЊ!!!" << endl;
     }
     WiFi.close();
 }
@@ -42,8 +42,8 @@ void Admin::ChangeWorkHours() {
     WorkHours.open("WorkHours.txt");
 
     if (WorkHours.is_open()) {
-        cout << "Введіть нові години роботи: ";
-        NewWorkHours.clear(); // очищаємо попередні дані
+        cout << "Р’РІРµРґС–С‚СЊ РЅРѕРІС– РіРѕРґРёРЅРё СЂРѕР±РѕС‚Рё: ";
+        NewWorkHours.clear(); // РѕС‡РёС‰Р°С”РјРѕ РїРѕРїРµСЂРµРґРЅС– РґР°РЅС–
         do {
             a = _getch();
             if ((int)a != 13) {  // Enter
@@ -57,7 +57,7 @@ void Admin::ChangeWorkHours() {
         }
     }
     else {
-        cout << "Не вдалося відкрити файл WorkHours.txt!" << endl;
+        cout << "РќРµ РІРґР°Р»РѕСЃСЏ РІС–РґРєСЂРёС‚Рё С„Р°Р№Р» WorkHours.txt!" << endl;
     }
 
     WorkHours.close();
@@ -67,24 +67,24 @@ void Admin::ChangeEntrancePrice() {
     EntrancePriceFile.open("EntrencePrice.txt", ios::out);
 
     if (!EntrancePriceFile.is_open()) {
-        cout << "Помилка у відкриті файла!!!" << endl;
+        cout << "РџРѕРјРёР»РєР° Сѓ РІС–РґРєСЂРёС‚С– С„Р°Р№Р»Р°!!!" << endl;
     }
     else {
         system("cls");
-        cout << "Введіть нову ціну за вхід: ";
+        cout << "Р’РІРµРґС–С‚СЊ РЅРѕРІСѓ С†С–РЅСѓ Р·Р° РІС…С–Рґ: ";
         cin >> EntrancePrice;
-        EntrancePriceFile << "Ціна за вхід -- " << EntrancePrice << " грн.";
+        EntrancePriceFile << "Р¦С–РЅР° Р·Р° РІС…С–Рґ -- " << EntrancePrice << " РіСЂРЅ.";
         EntrancePriceFile.close();
     }
 }
 
 void Admin::OrderProducts() {
-    cout << "Введіть назву продукту: ";
+    cout << "Р’РІРµРґС–С‚СЊ РЅР°Р·РІСѓ РїСЂРѕРґСѓРєС‚Сѓ: ";
     cin >> Products;
-    cout << "Введіть кількість: ";
+    cout << "Р’РІРµРґС–С‚СЊ РєС–Р»СЊРєС–СЃС‚СЊ: ";
     cin >> number;
     system("cls");
-    cout << "\n\n\n\t\t\tПродукти замовлено" << endl;
+    cout << "\n\n\n\t\t\tРџСЂРѕРґСѓРєС‚Рё Р·Р°РјРѕРІР»РµРЅРѕ" << endl;
     Sleep(3000);
 }
 
