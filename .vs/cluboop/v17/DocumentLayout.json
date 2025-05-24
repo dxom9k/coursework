@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\xom9k\\source\\repos\\cluboop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E56ECE21-CBC1-47D8-BAE7-D5CC76B0E97D}|cluboop\\cluboop.vcxproj|C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E56ECE21-CBC1-47D8-BAE7-D5CC76B0E97D}|cluboop\\cluboop.vcxproj|solutionrelative:cluboop\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E56ECE21-CBC1-47D8-BAE7-D5CC76B0E97D}|cluboop\\cluboop.vcxproj|C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\Deserts.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{E56ECE21-CBC1-47D8-BAE7-D5CC76B0E97D}|cluboop\\cluboop.vcxproj|solutionrelative:cluboop\\Deserts.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E56ECE21-CBC1-47D8-BAE7-D5CC76B0E97D}|cluboop\\cluboop.vcxproj|C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\Admin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E56ECE21-CBC1-47D8-BAE7-D5CC76B0E97D}|cluboop\\cluboop.vcxproj|solutionrelative:cluboop\\Admin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -19,8 +11,40 @@
       "RelativeMoniker": "D:0:0:{E56ECE21-CBC1-47D8-BAE7-D5CC76B0E97D}|cluboop\\cluboop.vcxproj|solutionrelative:cluboop\\Admin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E56ECE21-CBC1-47D8-BAE7-D5CC76B0E97D}|cluboop\\cluboop.vcxproj|C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\Hard_Drinks.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E56ECE21-CBC1-47D8-BAE7-D5CC76B0E97D}|cluboop\\cluboop.vcxproj|solutionrelative:cluboop\\Hard_Drinks.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E56ECE21-CBC1-47D8-BAE7-D5CC76B0E97D}|cluboop\\cluboop.vcxproj|C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\Soft_drinks.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E56ECE21-CBC1-47D8-BAE7-D5CC76B0E97D}|cluboop\\cluboop.vcxproj|solutionrelative:cluboop\\Soft_drinks.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E56ECE21-CBC1-47D8-BAE7-D5CC76B0E97D}|cluboop\\cluboop.vcxproj|C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\Deserts.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E56ECE21-CBC1-47D8-BAE7-D5CC76B0E97D}|cluboop\\cluboop.vcxproj|solutionrelative:cluboop\\Deserts.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E56ECE21-CBC1-47D8-BAE7-D5CC76B0E97D}|cluboop\\cluboop.vcxproj|C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\WiFiPassword.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E56ECE21-CBC1-47D8-BAE7-D5CC76B0E97D}|cluboop\\cluboop.vcxproj|solutionrelative:cluboop\\WiFiPassword.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E56ECE21-CBC1-47D8-BAE7-D5CC76B0E97D}|cluboop\\cluboop.vcxproj|C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\Cold_Dish.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E56ECE21-CBC1-47D8-BAE7-D5CC76B0E97D}|cluboop\\cluboop.vcxproj|solutionrelative:cluboop\\Cold_Dish.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E56ECE21-CBC1-47D8-BAE7-D5CC76B0E97D}|cluboop\\cluboop.vcxproj|C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\Human.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E56ECE21-CBC1-47D8-BAE7-D5CC76B0E97D}|cluboop\\cluboop.vcxproj|solutionrelative:cluboop\\Human.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E56ECE21-CBC1-47D8-BAE7-D5CC76B0E97D}|cluboop\\cluboop.vcxproj|C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E56ECE21-CBC1-47D8-BAE7-D5CC76B0E97D}|cluboop\\cluboop.vcxproj|solutionrelative:cluboop\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E56ECE21-CBC1-47D8-BAE7-D5CC76B0E97D}|cluboop\\cluboop.vcxproj|C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\Visitor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E56ECE21-CBC1-47D8-BAE7-D5CC76B0E97D}|cluboop\\cluboop.vcxproj|solutionrelative:cluboop\\Visitor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E56ECE21-CBC1-47D8-BAE7-D5CC76B0E97D}|cluboop\\cluboop.vcxproj|C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\Human.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E56ECE21-CBC1-47D8-BAE7-D5CC76B0E97D}|cluboop\\cluboop.vcxproj|solutionrelative:cluboop\\Human.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E56ECE21-CBC1-47D8-BAE7-D5CC76B0E97D}|cluboop\\cluboop.vcxproj|C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\Hookah.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -29,14 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E56ECE21-CBC1-47D8-BAE7-D5CC76B0E97D}|cluboop\\cluboop.vcxproj|C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\Menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E56ECE21-CBC1-47D8-BAE7-D5CC76B0E97D}|cluboop\\cluboop.vcxproj|solutionrelative:cluboop\\Menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E56ECE21-CBC1-47D8-BAE7-D5CC76B0E97D}|cluboop\\cluboop.vcxproj|C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\Cold_Dish.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{E56ECE21-CBC1-47D8-BAE7-D5CC76B0E97D}|cluboop\\cluboop.vcxproj|solutionrelative:cluboop\\Cold_Dish.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E56ECE21-CBC1-47D8-BAE7-D5CC76B0E97D}|cluboop\\cluboop.vcxproj|C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\Hard_Drinks.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{E56ECE21-CBC1-47D8-BAE7-D5CC76B0E97D}|cluboop\\cluboop.vcxproj|solutionrelative:cluboop\\Hard_Drinks.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E56ECE21-CBC1-47D8-BAE7-D5CC76B0E97D}|cluboop\\cluboop.vcxproj|C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\Beers.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -49,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E56ECE21-CBC1-47D8-BAE7-D5CC76B0E97D}|cluboop\\cluboop.vcxproj|C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\Author_dish.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{E56ECE21-CBC1-47D8-BAE7-D5CC76B0E97D}|cluboop\\cluboop.vcxproj|solutionrelative:cluboop\\Author_dish.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E56ECE21-CBC1-47D8-BAE7-D5CC76B0E97D}|cluboop\\cluboop.vcxproj|C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\Soft_drinks.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{E56ECE21-CBC1-47D8-BAE7-D5CC76B0E97D}|cluboop\\cluboop.vcxproj|solutionrelative:cluboop\\Soft_drinks.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,33 +86,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
+              "Title": "WiFiPassword.txt",
+              "DocumentMoniker": "C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\WiFiPassword.txt",
+              "RelativeDocumentMoniker": "cluboop\\WiFiPassword.txt",
+              "ToolTip": "C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\WiFiPassword.txt",
+              "RelativeToolTip": "cluboop\\WiFiPassword.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-24T18:13:30.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Visitor.cpp",
+              "DocumentMoniker": "C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\Visitor.cpp",
+              "RelativeDocumentMoniker": "cluboop\\Visitor.cpp",
+              "ToolTip": "C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\Visitor.cpp",
+              "RelativeToolTip": "cluboop\\Visitor.cpp",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAiwG0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-24T16:17:37.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Human.cpp",
               "DocumentMoniker": "C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\Human.cpp",
               "RelativeDocumentMoniker": "cluboop\\Human.cpp",
               "ToolTip": "C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\Human.cpp",
               "RelativeToolTip": "cluboop\\Human.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-05-21T18:05:58.579Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Admin.h",
               "DocumentMoniker": "C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\Admin.h",
               "RelativeDocumentMoniker": "cluboop\\Admin.h",
               "ToolTip": "C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\Admin.h",
               "RelativeToolTip": "cluboop\\Admin.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-05-21T17:56:47.243Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "Hookah.txt",
               "DocumentMoniker": "C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\Hookah.txt",
               "RelativeDocumentMoniker": "cluboop\\Hookah.txt",
@@ -108,12 +146,11 @@
               "RelativeToolTip": "cluboop\\Hookah.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-05-21T17:49:37.264Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T17:49:37.264Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Deserts.txt",
               "DocumentMoniker": "C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\Deserts.txt",
               "RelativeDocumentMoniker": "cluboop\\Deserts.txt",
@@ -126,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "Author_dish.txt",
               "DocumentMoniker": "C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\Author_dish.txt",
               "RelativeDocumentMoniker": "cluboop\\Author_dish.txt",
@@ -134,12 +171,11 @@
               "RelativeToolTip": "cluboop\\Author_dish.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-05-21T17:49:12.798Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T17:49:12.798Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Coctails.txt",
               "DocumentMoniker": "C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\Coctails.txt",
               "RelativeDocumentMoniker": "cluboop\\Coctails.txt",
@@ -147,12 +183,11 @@
               "RelativeToolTip": "cluboop\\Coctails.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-05-21T17:43:40.009Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T17:43:40.009Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Beers.txt",
               "DocumentMoniker": "C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\Beers.txt",
               "RelativeDocumentMoniker": "cluboop\\Beers.txt",
@@ -160,25 +195,24 @@
               "RelativeToolTip": "cluboop\\Beers.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-05-21T17:43:25.163Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T17:43:25.163Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 3,
               "Title": "Soft_drinks.txt",
               "DocumentMoniker": "C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\Soft_drinks.txt",
               "RelativeDocumentMoniker": "cluboop\\Soft_drinks.txt",
               "ToolTip": "C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\Soft_drinks.txt",
               "RelativeToolTip": "cluboop\\Soft_drinks.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2025-05-21T17:42:58.124Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "Hard_Drinks.txt",
               "DocumentMoniker": "C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\Hard_Drinks.txt",
               "RelativeDocumentMoniker": "cluboop\\Hard_Drinks.txt",
@@ -191,46 +225,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Cold_Dish.txt",
               "DocumentMoniker": "C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\Cold_Dish.txt",
               "RelativeDocumentMoniker": "cluboop\\Cold_Dish.txt",
               "ToolTip": "C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\Cold_Dish.txt",
               "RelativeToolTip": "cluboop\\Cold_Dish.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2025-05-21T17:30:02.056Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Admin.cpp",
               "DocumentMoniker": "C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\Admin.cpp",
               "RelativeDocumentMoniker": "cluboop\\Admin.cpp",
               "ToolTip": "C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\Admin.cpp",
               "RelativeToolTip": "cluboop\\Admin.cpp",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEIAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-05-21T17:16:25.881Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\main.cpp",
               "RelativeDocumentMoniker": "cluboop\\main.cpp",
               "ToolTip": "C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\main.cpp",
               "RelativeToolTip": "cluboop\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAF4AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-05-12T11:52:23.149Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
+              "Title": "Human.h",
+              "DocumentMoniker": "C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\Human.h",
+              "RelativeDocumentMoniker": "cluboop\\Human.h",
+              "ToolTip": "C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\Human.h",
+              "RelativeToolTip": "cluboop\\Human.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-24T16:13:30.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Menu.cpp",
               "DocumentMoniker": "C:\\Users\\xom9k\\source\\repos\\cluboop\\cluboop\\Menu.cpp",
               "RelativeDocumentMoniker": "cluboop\\Menu.cpp",
@@ -238,8 +285,7 @@
               "RelativeToolTip": "cluboop\\Menu.cpp",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-12T11:51:38.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T11:51:38.631Z"
             }
           ]
         }

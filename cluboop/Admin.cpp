@@ -73,6 +73,7 @@ void Admin::ChangeEntrancePrice() {
         system("cls");
         cout << "Введіть нову ціну за вхід: ";
         cin >> EntrancePrice;
+        cout << "Ціну за вхід змінено, нова ціна : " << EntrancePrice;
         EntrancePriceFile << "Ціна за вхід -- " << EntrancePrice << " грн.";
         EntrancePriceFile.close();
     }

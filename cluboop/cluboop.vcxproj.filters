@@ -82,5 +82,8 @@
     <Text Include="Hookah.txt">
       <Filter>Файлы ресурсов</Filter>
     </Text>
+    <Text Include="WiFiPassword.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
   </ItemGroup>
 </Project>
